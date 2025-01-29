@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f2f4;
+  font-family: sans-serif;
+}
+nav {
+  top: 0;
+  position: sticky;
+  height: 70px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+}
+nav > div {
+  margin: 0 30px;
+}
+.bar {
+  display: flex;
+}
+
+nav > .bar {
+  gap: 20px;
+}
+
+nav > .input > input {
+  width: 35rem;
+  height: 2rem;
+  padding-left: 30px;
+  background-color: #f0f5ff;
+  border-radius: 0 8px 8px 0px;
+  margin-top: 10px;
+  margin-right: 2px;
+}
+
+nav > .input > i {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 8px 0 0 8px;
+}
+
+.bannerimg {
+  margin: 10px 15px 10px 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  /* border: 1px solid rgb(200, 255, 0); */
+}
+.bannerimg > .same {
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+  /* border: 1px solid blue; */
+  padding: 10px 20px;
+}
+
+.bannerimg > .same > p {
+  font-size: 15px;
+  font-weight: 520;
+}
+
+.onlyimg {
+  margin: 15px 15px 10px 15px;
+  height: 200px;
+  /* border: 1px solid green; */
+}
+
+.onlyimg > img {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  margin: 15px 15px 10px 15px;
+  height: 350px;
+  /* border: 1px solid blue; */
+  background-color: #fff;
+}
+
+section > div {
+  margin: 10px;
+}
+
+section > .heading {
+  padding-top: 10px;
+  /* border: 1px solid black; */
+}
+
+section > .electronics-img {
+  height: 280px;
+  /* border: 1px solid orangered; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+section > .electronics-img > .box {
+  height: 250px;
+  width: 200px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+section > .electronics-img > .box > img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 5px;
+}
+
+section > .electronics-img > .box > img:hover{
+  scale: 1.02;
+}
+
+section > .electronics-img > .box {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 2px;
+}
+
+section > .electronics-img > .box > p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.secondSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  /* border: 1px solid blueviolet; */
+  background-color: #f1f2f4;
+  
+}
+
+.secondSection > .left {
+  height: 650px;
+  width: 33%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.secondSection > .left > h1{
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+
+
+.secondSection > .left >.one{
+  height: 280px;
+  width: 170px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  text-align:left;
+  padding: 10px;
+
+}
+
+.secondSection > .left >.one > span{
+  font-size: large;
+}
+
+.secondSection > .left >.one > p{
+  color: green;
+  font-weight: 600;
+}
+
+
+.secondSection > .left >.one >img{
+  width: 100%;
+  height: 220px;
+  object-fit: fill;
+  
+}
+
+.secondSection > .left >.one >img:hover{
+  scale: 1.02;
+  
+}
+
+
+
+.secondSection > .right {
+  height: 650px;
+  width: 70%;
+  /* border: 1px solid green; */
+}
+
+.secondSection > .right > img{
+  height: 100%;
+  width: 100%;
+  object-fit:fill;
+}
+ 
